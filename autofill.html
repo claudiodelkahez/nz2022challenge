@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Autofill</title>
+   <link rel="stylesheet" href="./css/estilosautofill.css">
+    <body>
+            <h1>Configurar el plugin de chrome para que cargue los datos automaticamente</h1>
+
+        <div>
+            <img src="https://i.postimg.cc/25VbZGwV/Screenshot-from-2022-05-25-09-21-26.png" alt="">
+        </div>
+
+            <h1>Texto para rellenar el autofill</h1>
+        <div class="textoautofill">
+            <p>
+                ### AUTOFILL PROFILES ###,,,,,, Profile ID,Name,Site,Hotkey,,,
+                ### AUTOFILL RULES ###,,,,,, Rule
+                ID,Type,Name,Value,Site,Mode,Profile
+                r1,0,"^_ctl0:ContentPlaceHolder1:personDetails:otherNamesTextBox$","Claudio","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r2,0,"^_ctl0:ContentPlaceHolder1:personDetails:otherTitleTextBox$","","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r3,0,"^_ctl0:ContentPlaceHolder1:personDetails:dateOfBirthDatePicker_DatePicker$","18
+                October,
+                1990","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r4,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:streetNumberTextbox$","1555","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r5,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:address1TextBox$","Alejandro
+                Malaspina","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r6,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:suburbTextBox$","Hurlingham","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r7,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:cityTextBox$","Hurlingham","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r8,0,"^s2id_autogen3_search$","Buenos
+                Aires","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r9,2,"^_ctl0:ContentPlaceHolder1:personDetails:titleDropDownList$","""1""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r10,2,"^_ctl0:ContentPlaceHolder1:personDetails:genderDropDownList$","""M""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r11,2,"^_ctl0:ContentPlaceHolder1:personDetails:CountryDropDownList$","""13""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r12,2,"\bui-datepicker-month\b","""4""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r13,2,"\bui-datepicker-year\b","""1991""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r14,0,"^_ctl0:ContentPlaceHolder1:personDetails:familyNameTextBox$","Delkahez","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r15,0,"^_ctl0:ContentPlaceHolder1:personDetails:givenName1Textbox$","Claudio","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r16,0,"^_ctl0:ContentPlaceHolder1:personDetails:givenName2Textbox$","Ezequiel","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r17,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:provinceStateTextBox$","Buenos
+                Aires","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r18,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:postalCodeTextBox$","1686","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r19,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:phoneNumberTextBox$","+5491161012613","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r20,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:phoneNumberNightTextBox$","+5491161012613","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r21,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:phoneNumberMobileTextBox$","+5491161012613","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r22,2,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:countryDropDownList$","""13""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r23,2,"^_ctl0:ContentPlaceHolder1:hasAgent:representedByAgentDropdownlist$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r24,2,"^_ctl0:ContentPlaceHolder1:hasCreditCard:hasCreditCardDropDownlist$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r25,0,"^_ctl0:ContentPlaceHolder1:identification:passportNumberTextBox$","AAG707981","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r26,0,"^_ctl0:ContentPlaceHolder1:identification:confirmPassportNumberTextBox$","AAG707981","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r27,0,"^_ctl0:ContentPlaceHolder1:identification:passportExpiryDateDatePicker_DatePicker$","13
+                January,
+                2031","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r28,0,"^_ctl0:ContentPlaceHolder1:identification:otherIssueDateDatePicker_DatePicker$","2
+                August,
+                2012","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r29,2,"^_ctl0:ContentPlaceHolder1:identification:otherIdentificationDropdownlist$","""3""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r30,2,"\bui-datepicker-month\b","""7""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r31,2,"\bui-datepicker-year\b","""2012""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r32,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:residentailCareDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r33,2,"^_ctl0:ContentPlaceHolder1:character:imprisonment5YearsDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r34,2,"^_ctl0:ContentPlaceHolder1:character:imprisonment12MonthsDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r35,2,"^_ctl0:ContentPlaceHolder1:character:deportedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r36,2,"^_ctl0:ContentPlaceHolder1:character:chargedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r37,2,"^_ctl0:ContentPlaceHolder1:character:convictedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r38,2,"^_ctl0:ContentPlaceHolder1:character:underInvestigationDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r39,2,"^_ctl0:ContentPlaceHolder1:character:excludedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r40,2,"^_ctl0:ContentPlaceHolder1:character:removedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r41,0,"^_ctl0:ContentPlaceHolder1:offshoreDetails:intendedTravelDateDatePicker_DatePicker$","13
+                December,
+                2022","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r42,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:commonWHSQuestions:previousWhsPermitVisaDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r43,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:commonWHSQuestions:sufficientFundsHolidayDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r44,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:beenToNzDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r45,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:requirementsQuestions:sufficientFundsOnwardTicketDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r46,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:requirementsQuestions:readRequirementsDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r47,2,"\bui-datepicker-month\b","""11""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r48,2,"\bui-datepicker-year\b","""2022""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r49,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:renalDialysisDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r50,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:tuberculosisDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r51,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:cancerDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r52,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:heartDiseaseDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r53,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:disabilityDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r54,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:hospitalisationDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r55,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:tbRiskDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r56,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:lengthOfStay:lengthOfStayDropDownList$","""2""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r57,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:emailAddressTextBox$","cdelkahez.dev@gmail.com","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r58,0,"^_ctl0:ContentPlaceHolder1:personDetails:otherNamesTextBox$","Claudio","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r59,0,"^_ctl0:ContentPlaceHolder1:personDetails:otherTitleTextBox$","","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r60,0,"^_ctl0:ContentPlaceHolder1:personDetails:dateOfBirthDatePicker_DatePicker$","18
+                October,
+                1990","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r61,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:streetNumberTextbox$","1555","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r62,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:address1TextBox$","Alejandro
+                Malaspina","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r63,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:suburbTextBox$","Hurlingham","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r64,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:cityTextBox$","Hurlingham","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r65,0,"^s2id_autogen3_search$","Buenos
+                Aires","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r66,2,"^_ctl0:ContentPlaceHolder1:personDetails:titleDropDownList$","""1""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r67,2,"^_ctl0:ContentPlaceHolder1:personDetails:genderDropDownList$","""M""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r68,2,"^_ctl0:ContentPlaceHolder1:personDetails:CountryDropDownList$","""13""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r69,2,"\bui-datepicker-month\b","""4""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r70,2,"\bui-datepicker-year\b","""1991""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r71,0,"^_ctl0:ContentPlaceHolder1:personDetails:familyNameTextBox$","Delkahez","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r72,0,"^_ctl0:ContentPlaceHolder1:personDetails:givenName1Textbox$","Claudio","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r73,0,"^_ctl0:ContentPlaceHolder1:personDetails:givenName2Textbox$","Ezequiel","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r74,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:provinceStateTextBox$","Buenos
+                Aires","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r75,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:postalCodeTextBox$","1686","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r76,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:phoneNumberTextBox$","+5491161012613","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r77,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:phoneNumberNightTextBox$","+5491161012613","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r78,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:phoneNumberMobileTextBox$","+5491161012613","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r79,2,"^_ctl0:ContentPlaceHolder1:addressContactDetails:address:countryDropDownList$","""13""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r80,2,"^_ctl0:ContentPlaceHolder1:hasAgent:representedByAgentDropdownlist$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r81,2,"^_ctl0:ContentPlaceHolder1:hasCreditCard:hasCreditCardDropDownlist$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r82,0,"^_ctl0:ContentPlaceHolder1:identification:passportNumberTextBox$","AAG707981","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r83,0,"^_ctl0:ContentPlaceHolder1:identification:confirmPassportNumberTextBox$","AAG707981","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r84,0,"^_ctl0:ContentPlaceHolder1:identification:passportExpiryDateDatePicker_DatePicker$","13
+                January,
+                2031","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r85,0,"^_ctl0:ContentPlaceHolder1:identification:otherIssueDateDatePicker_DatePicker$","2
+                August,
+                2012","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r86,2,"^_ctl0:ContentPlaceHolder1:identification:otherIdentificationDropdownlist$","""3""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r87,2,"\bui-datepicker-month\b","""7""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r88,2,"\bui-datepicker-year\b","""2012""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx",1,
+                r89,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:residentailCareDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r90,2,"^_ctl0:ContentPlaceHolder1:character:imprisonment5YearsDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r91,2,"^_ctl0:ContentPlaceHolder1:character:imprisonment12MonthsDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r92,2,"^_ctl0:ContentPlaceHolder1:character:deportedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r93,2,"^_ctl0:ContentPlaceHolder1:character:chargedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r94,2,"^_ctl0:ContentPlaceHolder1:character:convictedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r95,2,"^_ctl0:ContentPlaceHolder1:character:underInvestigationDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r96,2,"^_ctl0:ContentPlaceHolder1:character:excludedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r97,2,"^_ctl0:ContentPlaceHolder1:character:removedDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx",1,
+                r98,0,"^_ctl0:ContentPlaceHolder1:offshoreDetails:intendedTravelDateDatePicker_DatePicker$","13
+                December,
+                2022","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r99,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:commonWHSQuestions:previousWhsPermitVisaDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r100,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:commonWHSQuestions:sufficientFundsHolidayDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r101,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:beenToNzDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r102,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:requirementsQuestions:sufficientFundsOnwardTicketDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r103,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:requirementsQuestions:readRequirementsDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r104,2,"\bui-datepicker-month\b","""11""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r105,2,"\bui-datepicker-year\b","""2022""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r106,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:renalDialysisDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r107,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:tuberculosisDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r108,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:cancerDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r109,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:heartDiseaseDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r110,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:disabilityDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r111,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:hospitalisationDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r112,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:tbRiskDropDownList$","""Yes""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                r113,2,"^_ctl0:ContentPlaceHolder1:offshoreDetails:lengthOfStay:lengthOfStayDropDownList$","""2""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx",1,
+                r114,0,"^_ctl0:ContentPlaceHolder1:addressContactDetails:contactDetails:emailAddressTextBox$","cdelkahez.dev@gmail.com","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx",1,
+                r115,2,"^_ctl0:ContentPlaceHolder1:medicalConditions:pregnancy:pregnancyStatusDropDownList$","""No""","onlineservices.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx",1,
+                ### AUTOFILL OPTIONS ###,,,,,, advanced,"[]",,,,,
+                exceptions,"[]",,,,, textclips,"[]",,,,, variables,"[]",,,,,
+                activecat,1,,,,, autoimport,0,,,,, backup,0,30,,,, badge,1,,,,,
+                closeinfobar,1,1,,,, debug,0,,,,, delay,0,0.5,,,, fluid,1,,,,,
+                hidebackup,0,,,,, manual,0,,,,, mask,1,,,,, menu,1,,,,,
+                overwrite,1,,,,, sitefilters,1,,,,, skiphidden,0,,,,,
+                sound,1,,,,, vars,1,,,,, voice,1,5,,,,
+            </p>
+        </div>
+        <div>
+
+            <img src="https://i.postimg.cc/9WFG2tG3/Screenshot-from-2022-05-25-09-21-58.png" alt="">
+
+           
+        </div>
+        <div> 
+            <img src="https://i.postimg.cc/cxvwgx9X/Screenshot-from-2022-05-25-09-22-17.png" alt=""></div>
+        <div>
+            <p>Eso es todo para el plugin. Una vez configurado, solo queda esperar a que abra la aplicacion y tener paciencia con la pagina que se pone caprichosa jaja </p>
+        </div>
+    </body>
+</html>
